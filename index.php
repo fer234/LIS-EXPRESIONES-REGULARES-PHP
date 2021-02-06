@@ -12,28 +12,28 @@
     <legend>Ingresa todos tus datos</legend>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Carnet estudiantil</label>
-          <input type="text" class="form-control" name="txtCarnet" id="txt5" aria-describedby="name">
-          <div id="emailHelp" class="form-text">Ingresa tu carnet UDB, las iniciales en mayuscula.</div>
+          <input type="text" class="form-control" name="txtCarnet" id="txt5" aria-describedby="name" required>
+          <div id="ayuda1" class="form-text">Ingresa tu carnet UDB, las iniciales en mayuscula.</div>
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Nombres</label>
-          <input type="text" class="form-control" name="txtNombre" id="txt1" aria-describedby="name">
-          <div id="emailHelp" class="form-text">Ingresa tu nombre.</div>
+          <input type="text" class="form-control" name="txtNombre" id="txt1" aria-describedby="name" required>
+          <div id="ayuda2" class="form-text">Ingresa tu nombre.</div>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Apellidos</label>
-            <input type="text" class="form-control" name="txtApellidos" id="txt2" aria-describedby="name">
-            <div id="emailHelp" class="form-text">Ingresa tus apellidos.</div>
+            <input type="text" class="form-control" name="txtApellidos" id="txt2" aria-describedby="name" required>
+            <div id="ayuda3" class="form-text">Ingresa tus apellidos.</div>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Edad</label>
-            <input type="text" class="form-control" name="txtEdad" id="txt3" aria-describedby="name" size="3" maxlength="2">
-            <div id="emailHelp" class="form-text">Ingresa tu edad exacta.</div>
+            <input type="number" class="form-control" name="txtEdad" id="txt3" aria-describedby="name" size="3" maxlength="2" required>
+            <div id="ayuda4" class="form-text">Ingresa tu edad exacta.</div>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-            <input type="text" class="form-control" name="txtCorreo" id="txt4" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Ingresa su dirección de correo electrónico.</div>
+            <input type="text" class="form-control" name="txtCorreo" id="txt4" aria-describedby="emailHelp" required>
+            <div id="ayuda5" class="form-text">Ingresa su dirección de correo electrónico.</div>
         </div>
         <br>
         <button type="submit" name="btnEnviar" class="btn btn-primary">Validar</button>
