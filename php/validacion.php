@@ -36,7 +36,7 @@
             if( !empty($_POST) )
             {
                 // Verificamos los datos que llegaron del formulario:
-                if( isset($_POST['txtNombre']) && isset($_POST['txtApellidos']) )
+                if( isset($_POST['txtNombre']) && isset($_POST['txtApellidos']) && isset($_POST['txtEdad']) && isset($_POST['txtCorreo']) && isset($_POST['txtCarnet']))
                 {
                     // Nombres:
                     if( empty($_POST['txtNombre']) )
